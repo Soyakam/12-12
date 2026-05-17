@@ -7,12 +7,50 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+/* HTML: <div class="loader"></div> */
+
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+/* .loader {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  animation: l1 1s linear infinite alternate;
+}
+.loader:before {
+  content: 'Loading...';
+}
+@keyframes l1 {
+  to {
+    opacity: 0;
+  }
+} */
+
+.loader {
+  width: 12px;
+  height: 12px;
+  border: 5px solid #352b2b;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-primary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 110px;
+}

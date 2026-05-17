@@ -18,10 +18,10 @@ ul {
   list-style: none;
 }
 
-a {
+/* a {
   color: currentColor;
   text-decoration: none;
-}
+} */
 
 button {
   cursor: pointer;
@@ -31,4 +31,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+/* label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+} */
+
+.firstBlock {
+  display: block;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 30px;
 }
