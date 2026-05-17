@@ -36,6 +36,7 @@ if (query==="") {
     message: "Please enter a search query!!!"
   });
   hideLoader();
+
   return;
     };
 
